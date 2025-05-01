@@ -352,86 +352,86 @@ const CertificateOfRegistration = () => {
                 </td>
               </tr>
 
-              <tr></tr>
-
-              <td colSpan={5} style={{}}>
-                <input
-                  type="text"
-                  value={"Student No:"}
+              <tr>
+                <td colSpan={5} style={{}}>
+                  <input
+                    type="text"
+                    value={"Student No:"}
+                    style={{
+                      fontWeight: "bold",
+                      fontFamily: "Arial, sans-serif",
+                      fontSize: "0.85em",
+                      color: "black",
+                      width: "98%",
+                      border: "none",
+                      outline: "none",
+                      background: "none",
+                    }}
+                  />
+                </td>
+                <td
+                  colSpan={11}
                   style={{
-                    fontWeight: "bold",
-                    fontFamily: "Arial, sans-serif",
-                    fontSize: "0.85em",
-                    color: "black",
-                    width: "98%",
-                    border: "none",
-                    outline: "none",
-                    background: "none",
+                    fontSize: "62.5%",
                   }}
-                />
-              </td>
-              <td
-                colSpan={11}
-                style={{
-                  fontSize: "62.5%",
-                }}
-              >
-                <input
-                  type="text"
-                  value={studentData.student_no || ""}
+                >
+                  <input
+                    type="text"
+                    value={studentData.student_no || ""}
+                    style={{
+                      fontFamily: "Arial",
+                      color: "black",
+                      width: "98%",
+                      fontFamily: "Arial, sans-serif",
+                      fontSize: "1.3em",
+                      border: "none",
+                      outline: "none",
+                      background: "none",
+                    }}
+                  />
+                </td>
+                <td
+                  colSpan={4}
                   style={{
-                    fontFamily: "Arial",
-                    color: "black",
-                    width: "98%",
-                    fontFamily: "Arial, sans-serif",
-                    fontSize: "1.3em",
-                    border: "none",
-                    outline: "none",
-                    background: "none",
+                    fontSize: "62.5%",
                   }}
-                />
-              </td>
-              <td
-                colSpan={4}
-                style={{
-                  fontSize: "62.5%",
-                }}
-              >
-                <input
-                  type="text"
-                  value={"College:"}
+                >
+                  <input
+                    type="text"
+                    value={"College:"}
+                    style={{
+                      fontWeight: "Bold",
+                      color: "black",
+                      width: "98%",
+                      fontFamily: "Arial, sans-serif",
+                      fontSize: "13px",
+                      border: "none",
+                      outline: "none",
+                      background: "none",
+                    }}
+                  />
+                </td>
+                <td
+                  colSpan={14}
                   style={{
-                    fontWeight: "Bold",
-                    color: "black",
-                    width: "98%",
-                    fontFamily: "Arial, sans-serif",
-                    fontSize: "13px",
-                    border: "none",
-                    outline: "none",
-                    background: "none",
+                    fontSize: "62.5%",
                   }}
-                />
-              </td>
-              <td
-                colSpan={14}
-                style={{
-                  fontSize: "62.5%",
-                }}
-              >
-                <input
-                  type="text"
-                  value={studentData.college || ""}
-                  style={{
-                    color: "black",
-                    width: "98%",
-                    border: "none",
-                    fontFamily: "Arial, sans-serif",
-                    fontSize: "1.3em",
-                    outline: "none",
-                    background: "none",
-                  }}
-                />
-              </td>
+                >
+                  <input
+                    type="text"
+                    value={studentData.college || ""}
+                    style={{
+                      color: "black",
+                      width: "98%",
+                      border: "none",
+                      fontFamily: "Arial, sans-serif",
+                      fontSize: "1.3em",
+                      outline: "none",
+                      background: "none",
+                    }}
+                  />
+                </td>
+              </tr>
 
               <tr>
                 <td
